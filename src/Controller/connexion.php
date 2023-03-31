@@ -49,7 +49,7 @@ if (isset($_POST)) {
                 else {
                     $_SESSION['admin'] = false;
                 }
-                header('Location: ../materiel.php');
+                header('Location: ../index.php');
             }   else {
                 header('Location: error_connexion.php');
             }

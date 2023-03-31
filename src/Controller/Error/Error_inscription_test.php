@@ -7,10 +7,10 @@
     <?php include 'style.css.php'; ?>
 </head>
 
-<h1>Erreur à la création de compte utilisateur</h1>
+<h1>Erreur à la création de compte utilisateur, un champ était vide ou contenait uniquement des espaces</h1>
 
 
-<form action="formu.creation.php">
+<form action="inscription.php">
     <input type="submit" value="Redirection vers la création d'utilisateur" />
 </form>
 

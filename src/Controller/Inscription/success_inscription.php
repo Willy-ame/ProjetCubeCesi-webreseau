@@ -9,6 +9,6 @@
 
 <h1>Succès ! Votre demande d'inscription a bien été enregistrer.</h1>
 
-<form action="../index.html">
+<form action="../index.php">
     <input type="submit" value="Redirection vers l'acceuil" />
 </form>

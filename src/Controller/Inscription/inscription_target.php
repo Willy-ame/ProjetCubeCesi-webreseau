@@ -37,12 +37,12 @@ if (isset($_POST)) {
             $sql = "INSERT INTO login (user_login, mdp, is_admin, nom, prenom, email, status) VALUES ('$login', '$pass', '$isAdmin', '$surname', '$name', '$email', '0')";
             $req = $pdo->prepare($sql);
             $req->execute();
-            header('Location: success2.php');
+            header('Location: success_inscription.php');
         } else {
-            header('Location: error2.php');
+            header('Location: error_inscription.php');
         }
     }
     else {
-        header('Location: error3.php');
+        header('Location: Error_inscription_test.php');
     }
 }
