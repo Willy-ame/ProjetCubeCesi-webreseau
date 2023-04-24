@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <title>Connexion Ressources Relationnelles</title>
+    <title>Connexion (RE)Sources Relationnelles</title>
     <meta charset="utf-8">
     <?php include '../css/style.css.php'; ?>
 </head>
 
 <body>
-    <h1>Bienvenue sur Ressources Relationnelles</h1>
+    <h1>Bienvenue sur (RE)Sources Relationnelles</h1>
     <h2>Veuillez vous connecter</h2>
     <br>
     <form method="POST" action="../../src/Controller/connexion.php">

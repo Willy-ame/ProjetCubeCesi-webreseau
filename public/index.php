@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/first1-page.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<title>Document</title>
+<title>(RE)Sources Relationnelles</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         </ul>
     </div>
     <div class="content">
-        <div class="title">Ressources Relationnelles</div>
+        <div class="title">(RE)Sources Relationnelles</div>
 
 </body>
 
