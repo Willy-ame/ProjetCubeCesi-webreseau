@@ -28,7 +28,7 @@ if (isset($_POST)) {
     // } 
 
     // 3. Connexion à la base de données
-    require 'dbConnect.php';
+    require './Database/dbConnect.php';
 
     // Récupération de l'utilisateur depuis la base de données à partir de son login
     $sql = "SELECT * FROM login WHERE user_login ='$login' ";

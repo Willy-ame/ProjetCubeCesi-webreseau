@@ -52,7 +52,7 @@
             <div class="card-body p-md-5">
               <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                  <a href="index.html">
+                  <a href="../index.php">
                     <button type="button" class="btn btn-outline-danger my-3">Retour</button>
                   </a>
                   <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">INSCRIPTION</p>
