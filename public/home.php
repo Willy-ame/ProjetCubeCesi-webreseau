@@ -51,13 +51,6 @@ if (!isset($_SESSION['login']))
         <li class="nav-item">
             <a class="nav-link" href= "./Formulaire/logout.php">Déconnexion</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="./Formulaire/formu.creation.php">Création (temporaire)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./user/dashboard.php">Gérer Utilisateurs (temporaire)</a>
-          </li> -->
-     
         </div>
       </div>
     </nav>

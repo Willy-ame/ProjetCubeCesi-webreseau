@@ -9,20 +9,20 @@
 
 <body>
     <h1>Bienvenue sur (RE)Sources Relationnelles</h1>
-    <h2>Veuillez vous connecter</h2>
+    <h2>Veuillez vous DZOQDOQZO</h2>
     <br>
     <form method="POST" action="../../src/Controller/connexion.php">
         <table>
             <tr>
                 <div data-validate="Ce champ est obligatoire">
-                    <td><label for="login">Login</label></td>
-                    <td><input type="text" name="login" placeholder="Nom d'utilisateur"/></td>
+                    <td><label for="Login">Login</label></td>
+                    <td><input type="text" name="Login" placeholder="Nom d'utilisateur"/></td>
                 </div>
             </tr>
             <tr>
                 <div data-validate="Ce champ est obligatoire">
-                    <td><label for="mdp">Password</label></td>
-                    <td><input type="password" name="mdp" placeholder="Mot de passe"/>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="password" name="Password" placeholder="Mot de passe"/>
                 </div>
             </tr>
         </table>

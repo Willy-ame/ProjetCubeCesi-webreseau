@@ -4,11 +4,11 @@
 <head>
     <title>SUCCES</title>
     <meta charset="utf-8">
-    <?php include 'style.css.php'; ?>
+    <?php include '../../../public/css/style.css.php'; ?>
 </head>
 
 <h1>Succès ! Votre demande d'inscription a bien été enregistrer.</h1>
 
-<form action="../index.php">
+<form action="../../../public/index.php">
     <input type="submit" value="Redirection vers l'acceuil" />
 </form>
