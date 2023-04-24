@@ -24,12 +24,12 @@
     align-items: center;
     width: 20rem;
     height: 25rem;
-    border: 1px solid #EC6834;
+    border: 1px solid #4b3e06;
     background-color: #151B36;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #EC6834;
+    box-shadow: 0px 0px 10px #4b3e06;
     font-family: 'Dongle', cursive;
     font-size: 1.5em;
 }
@@ -42,27 +42,27 @@
 
 .texte {
     padding: 0 20px 20px;
-    color: #EC6834;
+    color: #4b3e06;
     font-size: 1.5em;
     font-family: 'Dongle', cursive;
 }
 
 h2 {
     padding: 0 20px 20px;
-    color: #EC6834;
+    color: #4b3e06;
     font-size: 1.5em;
     font-family: 'Dongle', cursive;
 }
 
 .texte2 {
     align-content: center;
-    color: #EC6834;
+    color: #4b3e06;
     font-size: 3.5em;
     font-family: 'Dongle', cursive;
 }
 
 button {
-    background: #EC6834;
+    background: #4b3e06;
     border: 0;
     color: #151B36;
     padding: 5px;
@@ -70,9 +70,9 @@ button {
 }
 
 .btn1 {
-    background-color: #ec6834;
+    background-color: #595a0f;
     /* Orange MNS */
-    border-color: #EC6834;
+    border-color: #4b3e06;
     color: #151B36;
     /* bleu MNS */
     padding: 12px 16px;

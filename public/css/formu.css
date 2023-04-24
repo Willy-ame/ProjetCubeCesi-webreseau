@@ -1,18 +1,18 @@
 body {
     background-color: #041937;
-    color: #EC6834;
+    color: #4b3e06;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 400px;
     height: 710px;
-    border: 1px solid #EC6834;
+    border: 1px solid #4b3e06;
     background-color: #151B36;
     padding: auto;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #EC6834;
+    box-shadow: 0px 0px 10px #4b3e06;
     font-family: 'Dongle', cursive;
     font-size: 1em;
 }
@@ -63,7 +63,7 @@ button {
     display: block;
     margin: 30px auto;
     outline: 0;
-    background: #EC6834;
+    background: #4b3e06;
     width: 90%;
     border: 0;
     padding: 15px;
