@@ -20,7 +20,7 @@
     <div class="wrapper">MENU
         <ul>
             <li><a href="./screen/formulaire.connexion.php">Connexion</a></li>
-            <li><a href="./Inscription.html">Inscription</a></li>
+            <li><a href="./screen/Inscription.php">Inscription</a></li>
             <!-- <li><a href="./Contact.html">Contact</a></li> -->
         </ul>
     </div>
