@@ -4,7 +4,7 @@
 <style>
     html,
     body {
-        background-color: #9EBEA1;
+        background-color: #cfd169;
         color: #8B744E;
         display: grid;
         height: 70%;

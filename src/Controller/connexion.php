@@ -38,7 +38,7 @@ if (isset($_POST)) {
     if ($req->rowCount() > 0) {
         $data = $req->fetchAll();
         if ($data[0]['status'] != '1') {
-            header('Location: error_connexion.php');
+            header('Location: ./Error/Error_connexion.php');
         }
         else {
             if (password_verify($mdp, $data[0]['mdp'])) {
@@ -49,16 +49,16 @@ if (isset($_POST)) {
                 else {
                     $_SESSION['admin'] = false;
                 }
-                header('Location: ../index.php');
+                header('Location: ../../public/index.php');
             }   else {
-                header('Location: error_connexion.php');
+                header('Location: ./Error/Error_connexion.php');
             }
         }     
     } 
     else {
-        header('Location: error_connexion.php');
+        header('Location: ./Error/Error_connexion.php');
         }
     }else {
-        header('Location: error_connexion.php');
+        header('Location: ./Error/Error_connexion.php');
     
     }

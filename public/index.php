@@ -17,7 +17,7 @@
     <input type="checkbox" id="active">
     <label for="active" class="menu-btn"><span></span></label>
     <label for="active" class="close"></label>
-    <div class="wrapper">MENU
+    <div class="wrapper">
         <ul>
             <li><a href="./screen/formulaire.connexion.php">Connexion</a></li>
             <li><a href="./screen/Inscription.php">Inscription</a></li>
