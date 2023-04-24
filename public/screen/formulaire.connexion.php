@@ -9,7 +9,7 @@
 
 <body>
     <h1>Bienvenue sur (RE)Sources Relationnelles</h1>
-    <h2>Veuillez vous DZOQDOQZO</h2>
+    <h2>Veuillez vous connecter</h2>
     <br>
     <form method="POST" action="../../src/Controller/connexion.php">
         <table>

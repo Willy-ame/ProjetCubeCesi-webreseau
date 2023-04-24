@@ -37,27 +37,26 @@ if (isset($_POST)) {
     if ($req->rowCount() > 0) {
         $data = $req->fetchAll();
         // if ($data[0]['status'] != '1') {
-        //     var_dump('1');
-        //     // header('Location: ./Error/Error_connexion.php');
+        //     header('Location: ./Error/Error_connexion.php');
         // }
         // else {
-            if (password_verify($mdp, $data[0]['Password'])) {
-                $_SESSION['Login'] = $login;
-                if ($data[0]['Id_type_utilisateur'] == 3) {
-                    $_SESSION['admin'] = true;
-                }
-                else {
-                    $_SESSION['admin'] = false;
-                }
-                header('Location: ../../public/index.php');
-            }   else {
-                header('Location: ./Error/Error_connexion.php');
+        if (password_verify($mdp, $data[0]['Password'])) {
+            $_SESSION['Login'] = $login;
+            echo($_SESSION);
+            if ($data[0]['Id_type_utilisateur'] == 3) {
+                $_SESSION['admin'] = true;
+            } else {
+                $_SESSION['admin'] = false;
             }
-        // }     
-    } 
+            header('Location: ../../public/home.php');
+        } else {
+            header('Location: ./Error/Error_connexion.php');
+        }
+    }
+    // } 
     else {
         header('Location: ./Error/Error_connexion.php');
-        }
-    }else {
-        header('Location: ./Error/Error_connexion.php');
     }
+} else {
+    header('Location: ./Error/Error_connexion.php');
+}
