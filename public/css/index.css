@@ -150,3 +150,67 @@ img#logo2 {
     border-radius: 5px;
   }
   
+  #favorite-button-container {
+    margin-top: 10px;
+  }
+  
+  #favorite-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  #favorite-button:hover {
+    background-color: #0056b3;
+  }
+
+  #favorite-button {
+    cursor: pointer; /* Change le curseur en une main pour indiquer que c'est un bouton cliquable */
+    width: 30px; /* Largeur souhaitée pour l'image du cœur */
+    height: 30px; /* Hauteur souhaitée pour l'image du cœur */
+    background-image: url('../img/heart.png'); /* Chemin vers l'image du cœur */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-size: cover; /* Redimensionne l'image pour qu'elle couvre entièrement le bouton */
+    border: none; /* Supprime les bordures du bouton */
+    outline: none; /* Supprime le contour lorsqu'il est en surbrillance */
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 450px;
+    margin: auto;
+    justify-items: center;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+
+  .button:hover {
+    background-color: #d0d0d0;
+  }
+
+  .button img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .button h2 {
+    margin: 0;
+  }
