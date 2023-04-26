@@ -28,7 +28,8 @@
         </table>
             <input type="submit" value="Connexion" id="btnEnvoyer">
     </form>
-    <div><p>Pas inscrit ? Faites une demande <a href="./Inscription.php">d'inscription</a></p></div>
+    <br>
+    <div><p>Vous n'avez pas de compte ? S'inscrire<a href="./Inscription.php">ici</a></p></div>
     <a href="../index.php">
                     <button type="button" class="btn btn-outline-danger my-3">Retour</button>
                 </a>
