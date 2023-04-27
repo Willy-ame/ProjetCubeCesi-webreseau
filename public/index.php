@@ -124,13 +124,13 @@
             <!-- <li><a href="./Contact.html">Contact</a></li> -->
         </ul>
     </div>
-    <div class="logo">
+    <!-- <div class="logo">
         <img src="./img/RESOURCELOGO.png" alt="Logo" width="429px" height="129px">
-    </div>
+    </div> -->
     <div class="img">
         <div class="content">
-            <div class="title">(RE)Sources Relationnelles</div>
-            <h1>CE QUI NOUS UNIT</h1>
+            <div class="title">CE QUI NOUS UNIT</div>
+            <h1>(RE)Sources Relationnelles</h1>
         </div>
     </div>
     <div class="footer">

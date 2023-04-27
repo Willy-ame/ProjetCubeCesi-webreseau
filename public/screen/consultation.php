@@ -39,20 +39,21 @@ if (!isset($_SESSION['Login'])) {
       <div class="container-fluid">
         <!-- <img src="./css/image/logo-#-02.png" alt="" id="logo2"> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="../home.php">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../src/Controller/logout.php">Déconnexion</a>
-            </li>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../home.php">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../src/Controller/logout.php">Déconnexion</a>
+          </li>
         </div>
       </div>
     </nav>
+  </header>
     <br><br>
     <div id="conteneur">
       <h1 class="texte2">(RE)Sources Relationnelles</h1>
@@ -98,7 +99,6 @@ if (!isset($_SESSION['Login'])) {
 
     <!-- Fin du rectangle blanc -->
 
-  </header>
 </body>
 <script src="./js/app.js"></script>
 <!-- <script src="../Horloge/Horloge.js"></script> -->

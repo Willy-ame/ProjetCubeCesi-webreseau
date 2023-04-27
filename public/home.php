@@ -21,7 +21,7 @@ if (!isset($_SESSION['Login'])) {
 
   <style>
     body {
-      background-color: #CF4F12;
+      background-color: #eb790e;
     }
 
     .header-navbar {
